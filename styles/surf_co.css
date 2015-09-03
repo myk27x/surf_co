@@ -1,0 +1,25 @@
+body {
+  margin: 0px;
+}
+
+#header {
+  background-color: blue;
+  width: 1265;
+  height: 527px;
+  z-index: -1;
+}
+
+#logo_bar {
+  background-color: red;
+}
+
+#logo {
+  margin: 18px 0px 0px 140px;
+}
+
+#brand {
+}
+
+#searchbar {
+  background-color: green;
+}
