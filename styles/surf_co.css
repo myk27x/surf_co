@@ -1,25 +1,76 @@
 body {
   margin: 0px;
+  width: 1300px;
+  height: 2104px;
+
+  /*background-color: blue;*/
+}
+
+#wrapper {
 }
 
 #header {
-  background-color: blue;
-  width: 1265;
-  height: 527px;
-  z-index: -1;
+  /*background-color: grey;*/
+  width: auto;
+  height: 523px;
+  /*z-index: -1;*/
 }
 
 #logo_bar {
-  background-color: red;
+  /*background-color: orange;*/
 }
 
 #logo {
-  margin: 18px 0px 0px 140px;
+  margin: 10px 0px 0px 140px;
 }
 
 #brand {
+  padding-left: 12px;
+  font-family: Tahoma;
+  color: #193d3e  ;
+
 }
 
 #searchbar {
+  /*background-color: green;*/
+  float: right;
+  padding-top: 15px;
+  padding-right: 200px;
+  line-height: 35px;
+  color: #193d3e;
+}
+
+#searchbar a:link {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #193d3e;
+}
+
+#main {
   background-color: green;
+  height: 1400px;
+}
+
+#img4 {
+  float: right;
+}
+
+#img3 {
+  float: right;
+}
+
+#img2 {
+  float: right;
+}
+
+#img1 {
+  /*float: right;*/
+}
+
+#footer {
+  position: absolute;
+  margin-bottom: 0;
+  width: 1300px;
+  height: 425px;
+  background: purple;
 }
