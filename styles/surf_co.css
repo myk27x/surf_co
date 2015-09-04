@@ -1,23 +1,20 @@
 body {
+  background-image: url(../images/header.jpg);
   margin: 0px;
   width: 1300px;
   height: 2104px;
-
-  /*background-color: blue;*/
+  background-repeat: no-repeat;
 }
 
 #wrapper {
 }
 
 #header {
-  /*background-color: grey;*/
   width: auto;
   height: 523px;
-  /*z-index: -1;*/
 }
 
 #logo_bar {
-  /*background-color: orange;*/
 }
 
 #logo {
@@ -56,16 +53,32 @@ body {
   padding-right: 15px;
 }
 
-#header p {
-  line-height: 178px;
+#searchbar a:visited {
+  color: #193d3e;
+}
+
+
+#compheader {
+  /*line-height: 178px;*/
+  padding-top: 30px;
+  height: 100px;
+  margin-bottom: 0px;
   font-size: 96px;
   text-align: center;
   font-family: 'Merriweather Sans';
   color: white;
 }
 
+#sub {
+  margin-top: 8px;
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Merriweather Sans';
+  color: #193d3e;
+}
+
 #main {
-  background-color: green;
+  /*background-color: green;*/
   height: 1156px;
 }
 
