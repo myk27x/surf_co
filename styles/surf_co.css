@@ -24,7 +24,7 @@ body {
 #brand {
   /*padding-left: 10px;*/
   font-family: 'Merriweather Sans';
-  color: #193d3e;
+  color: #083452;
   position: relative; absolute;
   left: 200px;
   top: -35px;
@@ -41,7 +41,7 @@ body {
   position: relative; absolute;
   top: -62px;
   right: 165px;
-  color: #193d3e;
+  color: #083452;
 }
 
 #searchbar a:link {
@@ -49,12 +49,12 @@ body {
   text-decoration: none;
   font-family: 'Oswald';
   font-size: 18px;
-  color: #193d3e;
+  color: #083452;
   padding-right: 15px;
 }
 
 #searchbar a:visited {
-  color: #193d3e;
+  color: #083452;
 }
 
 
@@ -74,12 +74,20 @@ body {
   font-size: 16px;
   text-align: center;
   font-family: 'Merriweather Sans';
-  color: #193d3e;
+  color: #083452;
 }
 
 #main {
   /*background-color: green;*/
   height: 1156px;
+}
+
+#footer {
+  /*position: absolute;*/
+  margin-bottom: 0;
+  width: 1300px;
+  height: 430px;
+  /*background: purple;*/
 }
 
 #img4 {
@@ -92,16 +100,84 @@ body {
 
 #img2 {
   float: right;
+  /*position: relative; absolute;*/
 }
 
 #img1 {
   /*float: right;*/
 }
 
-#footer {
-  position: absolute;
-  margin-bottom: 0;
-  width: 1300px;
-  height: 425px;
-  background: purple;
+#fbase {
+  display: flex;
+  background-color: #083452;
+  /*width: 600px;*/
+  position: relative; absolute;
+  bottom: 4px;
+}
+
+#fbase div {
+  /*width: 25%;*/
+  /*height: auto;*/
+}
+
+#fbaselogo {
+  /*background-color: blue;*/
+  width: 100%;
+}
+
+#fbaselogo img {
+  float: right;
+  padding: 30px 10px 0px 0px;
+}
+
+#flogotxt {
+  /*height: 39px;*/
+  color: #A3B3BF;
+  line-height: 100px;
+  /*background-color: orange;*/
+  width: 200%;
+  font-family: 'Open Sans';
+  font-size: 13px;
+}
+
+#spacer {
+  /*background-color: green;*/
+  width: 45%;
+}
+
+#linkpot {
+  padding-left: 10px;
+  line-height: 100px;
+  /*background-color: black;*/
+  width: 200%;
+  font-family: 'Open Sans';
+  font-size: 14px;
+}
+
+#linkpot a:nth-child(2) {
+  border-left: 1px solid #A3B3BF;
+  padding-left: 5px;
+}
+
+#linkpot a:nth-child(3) {
+  border-left: 1px solid #A3B3BF;
+  padding-left: 5px;
+}
+
+#linkpot a:nth-child(4) {
+  border-left: 1px solid #A3B3BF;
+  padding-left: 5px;
+}
+
+#linkpot a:link{
+  color: #A3B3BF;
+  text-decoration: none;
+}
+
+#linkpot a:visited {
+  color: #A3B3BF;
+}
+
+#linkpot a:hover {
+  color: #fff;
 }
