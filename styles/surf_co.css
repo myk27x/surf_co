@@ -1,5 +1,5 @@
 body {
-  /*background-image: url(../images/header.jpg);*/
+  background-image: url(../images/header.jpg);
   margin: 0px;
   width: 1300px;
   height: 2104px;
@@ -22,7 +22,6 @@ body {
 }
 
 #brand {
-  /*padding-left: 10px;*/
   font-family: 'Myriad Apple';
   font-size: 18px;
   color: #083452;
@@ -34,11 +33,7 @@ body {
 }
 
 #searchbar {
-  /*background-color: green;*/
   float: right;
-  /*padding-top: 15px;
-  padding-right: 200px;
-  line-height: 35px;*/
   position: relative; absolute;
   top: -62px;
   right: 155px;
@@ -46,10 +41,8 @@ body {
 }
 
 #searchbar a:link {
-  /*padding: 15px;*/
   text-decoration: none;
   font-family: 'Oswald';
-  /*font-weight: bold;*/
   font-size: 18px;
   color: #083452;
   padding-right: 13px;
@@ -60,7 +53,6 @@ body {
 }
 
 #compheader {
-  /*line-height: 178px;*/
   padding-top: 20px;
   height: 110px;
   margin-bottom: 0px;
@@ -79,8 +71,32 @@ body {
 }
 
 #main {
-  /*background-color: green;*/
   height: 1156px;
+}
+
+#posthead p {
+  font-family: 'Oswald';
+  font-size: 64px;
+  margin: 0px;
+  color: #083452;
+}
+
+#p1 {
+  /*position: relative; absolute;*/
+}
+
+#p2 {
+  position: relative; absloute;
+  bottom: 23px;
+}
+
+#authorhead {
+  display: flex;
+}
+
+#authorhead img {
+  height: 22px;
+  width: 22px;
 }
 
 #mediabar {
