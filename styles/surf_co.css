@@ -1,5 +1,5 @@
 body {
-  background-image: url(../images/header.jpg);
+  /*background-image: url(../images/header.jpg);*/
   margin: 0px;
   width: 1300px;
   height: 2104px;
@@ -83,6 +83,125 @@ body {
   height: 1156px;
 }
 
+#mediabar {
+  display: flex;
+  font-family: 'Myriad Apple';
+  font-size: 14px;
+}
+
+#comment {
+  display: flex;
+  height: 32px;
+  width: 159px;
+}
+
+#comment a {
+  display: flex;
+  /*height: 32px;
+  width: 126px;*/
+  text-decoration: none;
+}
+
+#mediabar a:hover img {
+    background-color: #083452;
+}
+
+#mediabar a:hover div {
+    background-color: #106db3;
+}
+
+/*does not work*/
+/*#comment img:hover {
+  background-color: #083452;
+}
+
+#comment div:hover {
+  background-color: #106DB3;
+}*/
+/*does not work*/
+
+#comment img  {
+  /*background-image: url(../images/icon-comment.png);*/
+  padding: 8px 8px 8px 8px;
+  /*width: 35px;
+  height: 33px;*/
+  background-color: #5E686F;
+  text-decoration: none;
+}
+
+#comment div {
+  background-color: #A3B3BF;
+  color: white;
+  height: 32px;
+  width: 112px;
+  line-height: 34px;
+  padding-left: 14px;
+}
+
+#upload {
+  display: flex;
+  height: 32px;
+  width: 129px;
+}
+
+#upload a {
+  display: flex;
+  text-decoration: none;
+}
+
+#upload img {
+  padding: 8px 8px 8px 8px;
+  /*width: 30px;
+  height: 30px;*/
+  background-color: #5E686F;
+  text-decoration: none;
+}
+
+#upload div {
+  background-color: #A3B3BF;
+  color: white;
+  height: 32px;
+  width: 82px;
+  line-height: 34px;
+  padding-left: 14px;
+}
+
+#share {
+  display: flex;
+  height: 32px;
+  width: 150px;
+}
+
+#share a {
+  display: flex;
+  text-decoration: none;
+}
+
+#share img {
+  padding: 8px 8px 8px 8px;
+  /*width: 30px;
+  height: 30px;*/
+  background-color: #5E686F;
+  text-decoration: none;
+}
+
+#share div {
+  background-color: #A3B3BF;
+  color: white;
+  height: 32px;
+  width: 110px;
+  line-height: 34px;
+  padding-left: 14px;
+}
+
+#fhead {
+  border-top: 1px solid #A3B3BF;
+  text-align: center;
+  font-family: 'Oswald';
+  font-size: 64px;
+  color: #083452;
+}
+
 #footer {
   position: relative; absolute;
   display: flex;
@@ -103,8 +222,8 @@ body {
   width: 325px;
   height: 330px;
   background-image: linear-gradient(
-      rgba(0, 104, 173, 0.8),
-      rgba(0, 104, 173, 0.8)
+    rgba(0, 104, 173, 0.8),
+    rgba(0, 104, 173, 0.8)
     ), url(../images/article-image-4.jpg);
   position: relative; absolute;
   /*background-color: blue;*/
@@ -135,8 +254,8 @@ body {
   width: 325px;
   height: 330px;
   background-image: linear-gradient(
-      rgba(0, 104, 173, 0.8),
-      rgba(0, 104, 173, 0.8)
+    rgba(0, 104, 173, 0.8),
+    rgba(0, 104, 173, 0.8)
     ), url(../images/article-image-3.jpg);
   /*float: right;*/
   position: relative; absolute;
@@ -146,12 +265,12 @@ body {
 
 #img3:hover {
   background-image: linear-gradient(
-      rgba(0, 104, 173, 0.3),
-      rgba(0, 104, 173, 0.3)
+    rgba(0, 104, 173, 0.3),
+    rgba(0, 104, 173, 0.3)
     ), url(../images/article-image-3.jpg);
-    width: 325px;
-    height: 330px;
-    color: white;
+  width: 325px;
+  height: 330px;
+  color: white;
 }
 
 #img3 p {
@@ -167,8 +286,8 @@ body {
   width: 325px;
   height: 330px;
   background-image: linear-gradient(
-      rgba(0, 104, 173, 0.8),
-      rgba(0, 104, 173, 0.8)
+    rgba(0, 104, 173, 0.8),
+    rgba(0, 104, 173, 0.8)
     ), url(../images/article-image-2.jpg);
   /*float: right;*/
   position: relative; absolute;
@@ -178,12 +297,12 @@ body {
 
 #img2:hover {
   background-image: linear-gradient(
-      rgba(0, 104, 173, 0.3),
-      rgba(0, 104, 173, 0.3)
+    rgba(0, 104, 173, 0.3),
+    rgba(0, 104, 173, 0.3)
     ), url(../images/article-image-2.jpg);
-    width: 325px;
-    height: 330px;
-    color: white;
+  width: 325px;
+  height: 330px;
+  color: white;
 }
 
 #img2 p {
@@ -199,8 +318,8 @@ body {
   width: 325px;
   height: 330px;
   background-image: linear-gradient(
-      rgba(0, 104, 173, 0.8),
-      rgba(0, 104, 173, 0.8)
+    rgba(0, 104, 173, 0.8),
+    rgba(0, 104, 173, 0.8)
     ), url(../images/article-image-1.jpg);
   /*float: none;*/
   /*display: inline-block;*/
@@ -213,12 +332,12 @@ body {
 
 #img1:hover {
   background-image: linear-gradient(
-      rgba(0, 104, 173, 0.3),
-      rgba(0, 104, 173, 0.3)
+    rgba(0, 104, 173, 0.3),
+    rgba(0, 104, 173, 0.3)
     ), url(../images/article-image-1.jpg);
-    width: 325px;
-    height: 330px;
-    color: white;
+  width: 325px;
+  height: 330px;
+  color: white;
 }
 
 #img1 p {
