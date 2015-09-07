@@ -74,11 +74,30 @@ body {
   height: 1156px;
 }
 
-#posthead p {
+#spacetop {
+  height: 60px;
+  width: 1300px;
+  /*background-color: black;*/
+}
+
+#posthead {
+  display: flex;
+}
+
+#space1 {
+  width: 168px;
+  height: 179px;
+  background-color: red;
+}
+
+#posttitle p {
   font-family: 'Oswald';
   font-size: 64px;
   margin: 0px;
   color: #083452;
+  line-height: 76px;
+  width: 610px;
+  /*background-color: red;*/
 }
 
 #p1 {
@@ -87,16 +106,66 @@ body {
 
 #p2 {
   position: relative; absloute;
-  bottom: 23px;
+  /*bottom: 23px;*/
+}
+
+#space2 {
+  width: 84px;
+  height: 179px;
+  background-color: orange;
 }
 
 #authorhead {
   display: flex;
+  margin-top: 5px;
 }
 
 #authorhead img {
   height: 22px;
   width: 22px;
+}
+
+#authbio {
+  text-align: center;
+  position: relative; absolute;
+  top: 28px;
+  /*margin: 3px;*/
+}
+
+#authbio img {
+  margin-bottom: 8px;
+}
+
+#authbio p {
+  margin: 3px;
+}
+
+#post {
+  display:inline-flex;
+}
+
+#space3 {
+  width: 168px;
+  height: 700px;
+  background-color: green;
+}
+
+#content {
+  width: 610px;
+}
+
+#space4 {
+  width: 84px;
+  height: 700px;
+  background-color: orange;
+}
+
+#ad {
+  text-align: right;
+}
+
+#heading {
+  width: 278px;
 }
 
 #mediabar {
