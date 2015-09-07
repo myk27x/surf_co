@@ -577,3 +577,278 @@ body {
 #linkpot a:hover {
   color: #fff;
 }
+
+@media (max-width: 500px) {
+  body {
+    background-image: none;
+    margin: 0px;
+    width: 440px;
+    height: 200px;
+    background-repeat: no-repeat;
+  }
+  #header {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/header.jpg);
+    width: 440px;
+    height: 180px;
+    /*background-color: red;*/
+  }
+  #logobar {
+    /*display: flex;*/
+    /*width: 180px;*/
+    /*flex-direction: column-reverse;*/
+  }
+  #logo {
+    position: relative; absolute;
+    left: 200px;
+    top: 40px;
+    margin: 0px;
+    /*background-color: blue;*/
+  }
+  #brand {
+      display: none;
+      /*background-color: green;*/
+  }
+  #searchbar {
+    float: none;
+    display: inline-flex;
+    position: relative; absolute;
+    width: 180px;
+    top: -20px;
+    left: 110px;
+    color: #083452;
+    /*background-color: green;*/
+  }
+  #compheader {
+    /*display: none;*/
+    position: relative; absolute;
+    top: 50px;
+    font-size: 38px;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    /*background-color: orange;*/
+  }
+  #sub {
+    position: relative; absolute;
+    top: 50px;
+    margin-top: 0px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Myriad Apple';
+    color: #083452;
+    /*background-color: pink;*/
+  }
+  #main {
+    height: auto;
+  }
+  #spacetop {
+    width: 440px;
+  }
+  #posthead {
+    display: flex;
+    flex-direction: column;
+  }
+  #space1 {
+    display: none;
+  }
+  #posttitle p {
+    width: 375px;
+    padding-left: 30px;
+  }
+  #space2 {
+    display: none;
+  }
+  #authorhead img {
+    display: none;
+  }
+  #author {
+    display: none;
+  }
+  #date {
+    padding-left: 30px;
+  }
+  #authbio {
+    left: 65px;
+    margin-bottom: 20px;
+  }
+  #post {
+    display:flex;
+    flex-direction: column;
+  }
+  #space3 {
+    display: none;
+  }
+  #content {
+    width: 375px;
+    padding-left: 30px;
+  }
+  #space4 {
+    display: none;
+  }
+  #ad {
+    padding-top: 80px;
+    width: 350px;
+    padding-bottom: 50px;
+  }
+  #heading {
+    display: none;
+  }
+  #gap {
+    display: none;
+  }
+  #gap2 {
+    width: 40px;
+    height: 20px;
+  }
+  #comment {
+    height: 20px;
+    width: 20px;
+  }
+  #comment img  {
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+  }
+  #comment div {
+    display: none;
+  }
+  #upload {
+    height: 20px;
+    width: 20px;
+  }
+  #upload img {
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+  }
+  #upload div {
+    display: none;
+  }
+  #share {
+    height: 20px;
+    width: 20px;
+  }
+  #share img {
+    height: 20px;
+    width: 20px;
+    padding: 10px;
+  }
+  #share div {
+    display: none;
+  }
+  #fhead {
+    font-size: 40px;
+    padding-top: 40px;
+  }
+  #footer {
+    flex-direction: column-reverse;
+    margin-bottom: 0px;
+    width: 400px;
+    height: auto;
+    padding-left: 30px;
+  }
+  #gap3 {
+    width: 400px;
+    height: 20px;
+  }
+  #img4 {
+    width: 380px;
+    height: 230px;
+    background-size: 380px 230px;
+  }
+  #img4 p {
+    top: 150px;
+    left: 15px;
+  }
+  #img4:hover {
+    width: 380px;
+    height: 230px;
+  }
+  #img3 {
+    width: 380px;
+    height: 230px;
+    background-size: 380px 230px;
+  }
+  #img3 p {
+    top: 100px;
+    left: 15px;
+  }
+  #img3:hover {
+    width: 380px;
+    height: 230px;
+  }
+  #img2 {
+    width: 380px;
+    height: 230px;
+    background-size: 380px 230px;
+  }
+  #img2 p {
+    top: 150px;
+    left: 15px;
+  }
+  #img2:hover {
+    width: 380px;
+    height: 230px;
+  }
+  #img1 {
+    width: 380px;
+    height: 230px;
+    background-size: 380px 230px;
+  }
+  #img1 p {
+    top: 150px;
+    left: 15px;
+  }
+  #img1:hover {
+    width: 380px;
+    height: 230px;
+  }
+  #fbase {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 440px;
+  }
+  #fbaselogo {
+    width: 100%;
+    position: relative; absolute;
+    top: 35px;
+  }
+  #fbaselogo img {
+    float: none;
+    padding: 0px;
+    position: relative; absolute;
+    left: 185px;
+    height: 55px;
+  }
+  #flogotxt {
+    text-align: center;
+    line-height: 28px;
+    font-size: 18px;
+    width: 230px;
+    position: relative; absolute;
+    left: 105px;
+    top: 45px;
+  }
+  #spacer {
+    background-color: green;
+    width: 45%;
+  }
+  #linkpot {
+    order: -1;
+    line-height: 30px;
+    width: 100%;
+    height: 100px;
+    font-size: 24px;
+    text-align: center;
+    position: relative; absolute;
+    right: 8px;
+    top: 30px;
+  }
+  #linkpot a:nth-child(4) {
+    border-left: none;
+  }
+}
